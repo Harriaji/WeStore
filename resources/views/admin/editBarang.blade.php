@@ -19,7 +19,7 @@
                         <label for="jmlBarang">Jumlah</label>
                         <input type="text" class="form-control" id="jmlBarang" name="item_qtt" value="{{$data->item_qtt}}" >
                     </div>
-
+                    
                     <div class="form-group">
                         <label for="descBarang">Deskripsi Barang</label>
                         <textarea class="form-control" id="descBarang" name="item_desc" value="" >{{$data->item_desc}} </textarea>

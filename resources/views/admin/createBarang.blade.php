@@ -25,12 +25,12 @@
                     <label for="desc_kontak">Nama Barang</label>
                     <input type="text" class="form-control" id="name" name="item_name"  value="{{old('item_name')}}" >
                 </div>
-              
+              <br>
                 <div>
                     <label for="desc_kontak">Jumlah Barang</label>
                     <input type="text" class="form-control" id="qtt" name="item_qtt"  value="{{old('item_qtt')}}" >
                 </div>
-
+                <br>
                 <div>
                     <label for="desc_kontak">Deskripsi Barang</label>
                     <input type="text" class="form-control" id="desc" name="item_desc"  value="{{old('item_desc')}}" >

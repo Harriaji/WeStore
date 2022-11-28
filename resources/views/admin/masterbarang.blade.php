@@ -4,6 +4,7 @@
 @section('content-title', 'Master Barang')
 @section('main')
 
+
 <div class="row">
     <div class="col-lg-12">
         <div class="card shadow mb-4">
@@ -35,7 +36,9 @@
                     </tbody>
                     @endforeach
                 </table>
+                {{$data->links()}}
             </div>
+
         </div>
     </div>
 </div>
